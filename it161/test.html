@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>IT161 Brians Test Page</title>
+	<meta name="robots" content="noindex,nofollow" />
+	<!-- start styles here -->
+	<style>
+		img{float: left; margin: 1em;}
+		a{color: green;}
+		a:hover {color: red;
+		background-color: yellow;
+		text-decoration:none; }
+		
+		footer{clear: both;}
+	
+	</style>
+	<!-- end styles here -->
+	
+</head>
+
+<body>
+<header>
+	<h1 style="text-align: center">Brians Test Page Under Construction</h1>
+	<br>
+  	<nav>
+		<a href="https://validator.w3.org/" target="_blank">The WC3</a>  |
+		<a href="https://www.myxyngular.com/symmetry/" target="_blank">Xyngular Site</a>  |
+		<a href="https://www.w3schools.com/" target="_blank">The WC3 Schools</a>  |
+		<a href="https://www.w3schools.com/python/" target="_blank">Learn Python</a>	  
+	</nav>
+	</header>
+<img src="images/img1.png" alt="Me 2018"/>
+<p>This is my test page for IT161 assignment which will be test validated by the links at the bottem of the page</p>
+
+
+<footer>
+		<p><small>&copy; 2022 by 
+			Brian St Louis, All Rights Reserved ~ 
+			<a id="html-checker" href="#">Check HTML</a> ~ 
+			<a id="css-checker" href="#">Check CSS</a></small>
+	   </p>
+	  </footer>
+	<script>
+	  //https://tinyurl.com/dynamic-html-checker
+	  document.getElementById("html-checker").setAttribute("href","https://validator.w3.org/nu/?doc=" + location.href);
+		
+	  document.getElementById("css-checker").setAttribute("href","https://jigsaw.w3.org/css-validator/validator?uri=" + location.href);  
+   </script>
+	
+</body>
+</html>
